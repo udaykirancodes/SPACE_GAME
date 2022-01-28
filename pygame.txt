@@ -1,0 +1,22 @@
+pip install pygame 
+
+import pygame 
+
+pyagme.init()  - to initialise the pygame module
+
+pygame.display.set_mode((width,height)) and store in a variable to have a screen 
+
+for event in pygame.event.get()  -- to get the events 
+
+pygame.QUIT = close cross button 
+
+Change Caption : 
+#title 
+pygame.display.set_caption('My First Game')
+# to load a image from the location
+icon = pygame.image.load('twittetaskr.png')
+pygame.display.set_icon(icon)
+
+screen.fill((rgb))
+
+update screen --- pygame.display.update
